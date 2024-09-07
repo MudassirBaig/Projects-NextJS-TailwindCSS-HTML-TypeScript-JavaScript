@@ -11,7 +11,7 @@ var _a;
     var skillsElement = document.getElementById('skills');
     var RollElement = document.getElementById('rollnumber');
     var QtrElement = document.getElementById('quarter');
-    if (nameElement && emailElement && phoneElement && educationElement && skillsElement && experienceElement) {
+    if (nameElement && emailElement && phoneElement && educationElement && skillsElement && experienceElement && RollElement && QtrElement) {
         var name_1 = nameElement.value;
         var email = emailElement.value;
         var phone = phoneElement.value;
@@ -21,7 +21,7 @@ var _a;
         var rollNumer = RollElement.value;
         var qtr = QtrElement.value;
         //create resume output
-        var resumeOutput = "\n<h2>Resume</h2>\n<p><strong>Name:</strong> ".concat(name_1, "</p>\n<p><strong>Email:</strong> ").concat(email, " </p>\n<p><strong>Name:</strong> ").concat(phone, "</p>\n\n<h3>Education</h3>\n<p>").concat(education, "</p>\n\n<h3>Expereince</h3>\n<p>").concat(experience, "</p>\n\n<h3>Skills</h3>\n<p>").concat(skills, "</p>\n\n<h3>Skills</h3>\n<p>").concat(rollNumer, "</p>\n\n<h3>Skills</h3>\n<p>").concat(qtr, "</p>\n\n");
+        var resumeOutput = "\n<h2>Resume</h2>\n<p><strong>Name:</strong> ".concat(name_1, "</p>\n<p><strong>Email:</strong> ").concat(email, " </p>\n<p><strong>Name:</strong> ").concat(phone, "</p>\n<p><strong>Rollnumber:</strong> ").concat(rollNumer, " </p>\n<p><strong>Quarter:</strong> ").concat(qtr, "</p>\n\n<h3>Education</h3>\n<p>").concat(education, "</p>\n\n<h3>Expereince</h3>\n<p>").concat(experience, "</p>\n\n<h3>Skills</h3>\n<p>").concat(skills, "</p>\n");
         var resumeOutputElement = document.getElementById('resumeOutput');
         if (resumeOutputElement) {
             resumeOutputElement.innerHTML = resumeOutput;

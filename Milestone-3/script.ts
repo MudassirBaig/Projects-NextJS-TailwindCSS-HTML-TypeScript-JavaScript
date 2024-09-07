@@ -12,7 +12,7 @@ document.getElementById('resumeForm')?.addEventListener('submit', function(enven
    const RollElement = document.getElementById('rollnumber') as HTMLInputElement;
    const QtrElement = document.getElementById('quarter') as HTMLInputElement;
 
-   if(nameElement && emailElement && phoneElement && educationElement && skillsElement && experienceElement)
+   if(nameElement && emailElement && phoneElement && educationElement && skillsElement && experienceElement && RollElement && QtrElement)
 {
     const name = nameElement.value;
     const email = emailElement.value;
@@ -29,6 +29,8 @@ const resumeOutput = `
 <p><strong>Name:</strong> ${name}</p>
 <p><strong>Email:</strong> ${email} </p>
 <p><strong>Name:</strong> ${phone}</p>
+<p><strong>Rollnumber:</strong> ${rollNumer} </p>
+<p><strong>Quarter:</strong> ${qtr}</p>
 
 <h3>Education</h3>
 <p>${education}</p>
@@ -38,13 +40,6 @@ const resumeOutput = `
 
 <h3>Skills</h3>
 <p>${skills}</p>
-
-<h3>Skills</h3>
-<p>${rollNumer}</p>
-
-<h3>Skills</h3>
-<p>${qtr}</p>
-
 `;
 
 const resumeOutputElement = document.getElementById('resumeOutput')
