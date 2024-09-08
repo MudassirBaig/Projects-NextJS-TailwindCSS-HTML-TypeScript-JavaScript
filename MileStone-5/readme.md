@@ -1,7 +1,7 @@
 - Unique link shareable and also we can download resume/CV builder created following features are added.
 
 - 🛠️ **Tech Stack:** TypeScript, Html, Css
-- Profie Picture
+- CV URL
 - Name
 - Email
 - Contact number
