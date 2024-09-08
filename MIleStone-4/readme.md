@@ -1,0 +1,14 @@
+- Editable resume/CV Builder following features are added.
+
+- 🛠️ **Tech Stack:** TypeScript, Html, Css
+- Profie Picture
+- Name
+- Email
+- Contact number
+- Roll number
+- Quarter
+- Skills
+- Education
+- Experience.
+- Resume Generation button it will generate CV bwlow the page.
+- User can Edit any of feilds of the resume.

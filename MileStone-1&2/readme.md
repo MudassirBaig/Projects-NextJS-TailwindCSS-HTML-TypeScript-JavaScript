@@ -1,0 +1,13 @@
+- Static resume/CV created following features are added.
+
+- 🛠️ **Tech Stack:** TypeScript, Html, Css
+- Profie Picture
+- Name
+- Email
+- Contact number
+- Roll number
+- Quarter
+- Skills
+- Education
+- Experience.
+- Toggle Skills selection on button press
