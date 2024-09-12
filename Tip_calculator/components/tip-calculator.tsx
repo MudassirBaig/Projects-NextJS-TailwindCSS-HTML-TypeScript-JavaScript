@@ -60,7 +60,7 @@ export default function TipCalculator() {
         </CardHeader>
         <CardContent className="space-y-4">
           {/* Input for bill amount */}
-          <div className="grid gap-2">
+          <div className="grid gap-5">
             <Label htmlFor="bill-amount">Bill Amount</Label>
             <Input
               id="bill-amount"
