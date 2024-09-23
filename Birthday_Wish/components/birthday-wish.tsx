@@ -90,12 +90,13 @@ export default function BirthdayWish() {
         className="w-full max-w-md"
       >
         {/* Birthday card */}
-        <Card className="mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-black">
+        <Card className="mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-red">
           {/* Card header with birthday message */}
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold text-black">Happy 5th Birthday!</CardTitle>
+            <CardTitle className="text-4xl font-bold text-black">Happy 6th Birthday!</CardTitle>
             <CardDescription className="text-2xl font-semibold text-gray-600">Ahad Baig</CardDescription>
-            <p className="text-lg text-gray-500">August 9th</p>
+            
+            <p className="text-lg text-red-500">August 9th</p>
           </CardHeader>
           {/* Card content with candles and balloons */}
           <CardContent className="space-y-6 text-center">
