@@ -45,6 +45,7 @@ export default function MovieSearch() {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
+      console.log(data)
       if (data.Response === "False") {
         throw new Error(data.Error);
       }
@@ -63,7 +64,7 @@ export default function MovieSearch() {
 
   // JSX return statement rendering the Movie Search UI
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-100 p-4">
       <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-md">
         {/* Title of the Movie Search component */}
         <h1 className="text-3xl font-bold mb-1 text-center">Movie Search</h1>
