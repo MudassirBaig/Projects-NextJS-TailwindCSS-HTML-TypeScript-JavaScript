@@ -149,7 +149,7 @@ export default function PomodoroTimer() {
 
   // JSX return statement rendering the Pomodoro timer UI
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 dark:bg-gray-900">
       {/* Center the Pomodoro timer card within the screen */}
       <Card className="w-full max-w-md p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
         <div className="flex flex-col items-center justify-center gap-6">
