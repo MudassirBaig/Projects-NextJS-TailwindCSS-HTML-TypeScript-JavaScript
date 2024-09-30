@@ -159,9 +159,8 @@ export default function PomodoroTimer() {
             {/* Display current session (work or break) */}
             <div className="text-2xl font-medium">
               <span
-                className={`text-${
-                  state.currentSession === "work" ? "primary" : "secondary"
-                }`}
+                className={`text-${state.currentSession === "work" ? "primary" : "secondary"
+                  }`}
               >
                 {state.currentSession === "work" ? "Work" : "Break"}
               </span>
