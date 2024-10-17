@@ -56,7 +56,7 @@ const IndexPage = () => {
                 <p>All payments are processed instantly over a secure payment protocol.</p>
               </div>
             </li>
-            
+           
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">

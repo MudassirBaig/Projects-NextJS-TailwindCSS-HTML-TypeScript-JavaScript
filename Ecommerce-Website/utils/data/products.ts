@@ -128,7 +128,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-3.jpg',
+      '/images/products/product-3.webp',
     ],
     punctuation: {
       countOpinions: 81,
@@ -187,7 +187,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-4.jpg',
+      '/images/products/product-4.webp',
     ],
     punctuation: {
       countOpinions: 81,
@@ -246,7 +246,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-5.jpg',
+      '/images/products/product-5.webp',
     ],
     punctuation: {
       countOpinions: 81,
@@ -306,7 +306,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-6.jpg',
+      '/images/products/product-6.webp',
     ],
     punctuation: {
       countOpinions: 81,

@@ -59,7 +59,8 @@ const Header = ({ isErrorPage }: HeaderType) => {
           <a><h1 className="site-logo"><Logo />Baig-Shop</h1></a>
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
-          <Link href="#">
+          {/* one change here */}
+          <Link href="#">    
             <a>Products</a>
           </Link>
           <a href="#">Inspiration</a>
@@ -75,7 +76,9 @@ const Header = ({ isErrorPage }: HeaderType) => {
             </form>  
             <i onClick={() => setSearchOpen(!searchOpen)}  className="icon-search"></i>
           </button>
-          <Link href="/cart">
+          {/* comment for cart button */}
+          {/* <Link href="/cart"> */}
+          <Link href="#">
             <button className="btn-cart">
               <i className="icon-cart"></i>
               {cartItems.length > 0 && 
@@ -83,7 +86,8 @@ const Header = ({ isErrorPage }: HeaderType) => {
               }
             </button>
           </Link>
-          <Link href="/login">
+          <Link href="#">
+          {/* <Link href="/login"> */}
             <button className="site-header__btn-avatar"><i className="icon-avatar"></i></button>
           </Link>
           <button 
