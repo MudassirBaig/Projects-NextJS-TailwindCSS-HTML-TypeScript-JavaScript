@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        <img src="/logo.png" alt="Logo" className={styles.logo} />
+        {/* <img src="/logo.png" alt="Logo" className={styles.logo} /> */}
         <div className={styles.navLinks}>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
