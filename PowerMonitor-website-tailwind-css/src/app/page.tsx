@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       <div >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4" >
         
-          <PowerCard title="Power" value="1.9" unit="KW" update="last update 30 secs ago" color="bg-blue-500"/>
+          <PowerCard title="Power" value="1.9" unit="KWWW" update="last update 30 secs ago" color="bg-blue-500"/>
                    
           <PowerCard title="Voltage" value="230" unit="V" update='last update 5 secs ago' color="bg-blue-500" /> 
         
