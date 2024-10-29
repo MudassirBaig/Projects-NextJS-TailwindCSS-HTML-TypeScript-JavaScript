@@ -4,6 +4,7 @@ import PowerCard from './components/PowerCard';// Import the PowerCard component
 import ToggleButton from './components/ToggleButton';
 import React from 'react';
 
+
 const Home: React.FC = () => {
 
   return (
