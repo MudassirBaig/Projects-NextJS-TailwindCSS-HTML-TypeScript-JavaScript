@@ -1,0 +1,45 @@
+/* components/Footer.module.css */
+.footer {
+    background-color: #1578ea; /* Light background color */
+    padding: 20px 0; /* Padding around the footer */
+    text-align: center; /* Center text */
+    position: relative; /* Positioning */
+    bottom: 0;
+    width: 100%; /* Full width */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .container {
+    max-width: 1200px; /* Max width for the content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Padding for sides */
+  }
+  
+  .links {
+    margin-bottom: 10px; /* Space below links */
+  }
+  
+  .links a {
+    margin: 0 15px; /* Space between links */
+    color: #f2f4f6; /* Link color */
+    text-decoration: none; /* No underline */
+  }
+  
+  .links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .copy {
+    color: #f9f6f6; /* Text color */
+    font-size: 0.9em; /* Smaller font size */
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    .footer p {
+      font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+  }

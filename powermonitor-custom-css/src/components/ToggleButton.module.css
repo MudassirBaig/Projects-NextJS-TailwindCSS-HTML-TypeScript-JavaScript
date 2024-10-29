@@ -1,0 +1,32 @@
+.buttonContainer {
+  display: flex;
+  justify-content: space-between; /* Evenly space buttons */
+  flex-direction: row; /* Arrange buttons in a row */
+  align-items: left; /* Center buttons vertically */
+  width: 100%; /* Take full width of the container */
+}
+
+.button {
+  display: flex; /* Align icon and text in a row */
+  align-items: center; /* Center vertically */
+  padding: 10px 15px;
+  background-color: #f40606; /* Button color */
+  color: rgb(250, 250, 250);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1; /* Allow buttons to grow equally */
+  margin: 0 5px; /* Space between buttons */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+
+}
+
+.button:hover {
+  background-color: #090b04; /* Darker shade on hover */
+}
+
+.button svg {
+  margin-right: 8px; /* Space between icon and text */
+}

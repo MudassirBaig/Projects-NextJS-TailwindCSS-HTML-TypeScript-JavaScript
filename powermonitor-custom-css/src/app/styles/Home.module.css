@@ -1,0 +1,127 @@
+
+.container {
+    padding: 10px;
+    text-align: center;
+    background-color: #fdfdfb;
+    min-height: 100vh;
+  
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1578ea;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .logo {
+    height: 70px; /* Adjust logo size */
+  
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navLinks a {
+    color: #040000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .navLinks a:hover {
+    background-color: #0f5fc7;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .description {
+    color: #586069;
+  }
+  
+    
+  .cardContainer {
+    display: flex;
+    justify-content: space-between; /* Evenly space the cards */
+    flex-direction: row; /* Arrange cards in a row */
+    gap: 20px; /* Space between cards */
+    flex: 1; /* Allow card container to grow */
+  }
+
+
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Evenly space the buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    margin-left: 20px; /* Space between cards and buttons */
+    flex-shrink: 0; /* Prevent the button container from shrinking */
+    height: 100%; /* Optional: take full height */
+  }
+
+
+ 
+  .description {
+    margin: 20px; /* Space around the paragraph */
+    font-size: 1.2em; /* Adjust font size */
+    color: #060606; /* Text color */
+    line-height: 1.5; /* Spacing between lines */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: justify; /* Justify text */
+  }
+.h1
+{
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fefdfc;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bold; /* Bold text */  
+  text-align: center;
+  margin-top: 10px; /* Space above the heading */
+}
+.h2
+{
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #373a05;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bold; /* Bold text */  
+  text-align: center;
+  margin-top: 10px; /* Space above the heading */
+}
+
+.h3
+{
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #373a05;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bold; /* Bold text */  
+  text-align: center;
+  margin-top: 10px; /* Space above the heading */
+}
+
+.h4
+{
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #373a05;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bold; /* Bold text */  
+  text-align: center;
+  margin-top: 10px; /* Space above the heading */
+}
+

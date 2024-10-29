@@ -1,95 +1,62 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link';
+import styles from './styles/Home.module.css';
+import PowerCard from '../components/PowerCard';
+import ToggleButton from '../components/ToggleButton';
+import React from 'react';
 
-export default function Home() {
+const Home: React.FC = () => {
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className={styles.container}>
+      <nav className={styles.nav}>
+      <Link href="#">
+        <img src="./images/energy-monitor-logo-300x166.png"
+         alt="Logo" className={styles.logo} />
+          </Link>
+        <h1 className={styles.h1}>Power Monitoring Dashboard </h1 >
+        <div className={styles.navLinks}>
+       
+                </div>
+      </nav>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+<p className={styles.description}>
+        Welcome to our centralized power management solution. Our dashboard provides real-time insights into your energy consumption, allowing you to monitor your usage, control connected devices, and make informed decisions about your energy efficiency.
+      </p>
+      <h2 className={styles.h2}>Power Analysis</h2 >
+      <div className={styles.mainContainer}>
+        <div className={styles.cardContainer}>
+        
+          <PowerCard title="Power" value="1.9" unit="KW" update="last update 30 secs ago"/>
+                   
+          <PowerCard title="Voltage" value="230" unit="V" update='last update 5 secs ago' /> 
+        
+          <PowerCard title="Current" value="0.65" unit="A" update='last update 5 secs ago'/>
+
+          <PowerCard title="Power factor" value="1" unit="W" update='last update 1 hr ago'/>
+
+          <PowerCard title="Temprature" value="30" unit="C" update='last update 5 secs ago'/>
+         
+          <PowerCard title="Frequancy" value="50" unit="HZ" update='last update 5 secs ago'/>
+
+          <PowerCard title="Energy" value="1.5" unit="kWh" update='last update 1 hr ago' />
+
+         
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <h3 className={styles.h3}>Control Appliances</h3>
+        <div className={styles.buttonContainer}>
+          <ToggleButton />
+        </div>
+        <h4 className={styles.h4}>Graph</h4>
+        <div className={styles.imageContainer}>
+          <img src="./images/home-monitoring-grafana-dashboard.jpg" alt="Description" className={styles.image} />
+        </div>
+       
+        
+      </div>
+    
     </div>
+    
   );
-}
+};
+
+export default Home;

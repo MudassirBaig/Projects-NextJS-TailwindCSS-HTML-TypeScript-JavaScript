@@ -1,0 +1,29 @@
+.card {
+    background-color: #1578ea;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    flex: 1
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #fbfcfb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .value {
+    font-size: 2rem;
+    color: #fbf7f8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .lastUpdate {
+    color: #fdfbfc; /* Color for last update text */
+    font-size: 0.85em; /* Smaller font size */
+    margin-top: 10px; /* Space above last update text */
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
