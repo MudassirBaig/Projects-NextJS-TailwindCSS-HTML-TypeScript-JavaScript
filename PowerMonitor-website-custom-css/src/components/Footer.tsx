@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
       <div className={styles.container}>
       
         <div className={styles.links}>
-          <a href="/privacy-policy">Privacy Policy</a>
-          <a href="/terms-of-service">Terms of Service</a>
+          <a href="/privacypolicy">Privacy Policy</a>
+          <a href="/about">About</a>
           <a href="/contact">Contact Us</a>
          
         </div>
