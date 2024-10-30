@@ -42,7 +42,7 @@ const Home: React.FC = () => {
   <img 
     src="./images/home-monitoring-grafana-dashboard.jpg" 
     alt="Description" 
-    className="max-w-full h-auto rounded-lg" // Optional classes for responsiveness and styling
+    className="max-w-full h-auto rounded-lg" 
   />
 </div>
        
